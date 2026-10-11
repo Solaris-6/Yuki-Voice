@@ -17,7 +17,7 @@ Integrazione Home Assistant per dare voce al sistema Yuki AI attraverso disposit
 Copia l'intera cartella `yuki_voice` nella directory `custom_components` di Home Assistant:
 
 ```bash
-\\192.168.1.115\config\custom_components\yuki_voice\
+\\192.168.*.*\config\custom_components\yuki_voice\
 ```
 
 ### 2. Riavvia Home Assistant
@@ -32,7 +32,7 @@ Riavvia Home Assistant per caricare la nuova integrazione.
 4. Configura:
    - **Scan Network**: Scansiona la rete per dispositivi audio (default: true)
    - **Auto Detect Audio**: Rileva automaticamente dispositivi locali (default: true)
-   - **Yuki Voice Path**: Percorso del sistema Yuki (default: F:/IA)
+   - **Yuki Voice Path**: Percorso del sistema Yuki (default: *:/IA)
 
 ## Servizi
 
